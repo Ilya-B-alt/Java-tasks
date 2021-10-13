@@ -1,4 +1,4 @@
-package com.company;
+package javafundamentals.maintask;
 
 public class MainTask4 {
     public static void main(String[] args) {
