@@ -7,8 +7,7 @@ public class OptionalTask1 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter 10 numbers, please");
-        //Использовал массив String, а не int, так как нужно найти максимальную длину (количество символов),
-        // а не значение
+        
         String[] array = new String[10];
         for (int i = 0; i < 10; i++) {
             array[i] = scanner.nextLine();
