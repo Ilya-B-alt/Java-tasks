@@ -1,21 +1,22 @@
-package candies;
+package javacollections.candies;
 
 public abstract class CandyBase {
 
-     String name;
-     int weight;
-     int sugarContent;
 
-    public abstract String getName();
+        String name;
+        int weight;
+        int sugarContent;
 
-    public abstract void setName(String name);
+        public abstract String getName();
 
-    public abstract int getWeight();
+        public abstract void setName(String name);
 
-    public abstract void setWeight(int weight);
+        public abstract int getWeight();
 
-    public abstract int getSugarContent();
+        public abstract void setWeight(int weight);
 
-    public  abstract void setSugarContent(int sugarContent);
+        public abstract int getSugarContent();
+
+        public  abstract void setSugarContent(int sugarContent);
     }
 

@@ -1,10 +1,8 @@
-package candies;
+package javacollections.candies;
 
 import java.util.Comparator;
 
-
 public class Candies extends CandyBase {
-
     public Candies(String name, int weight, int sugarContent ) {
         this.name = name;
         this.weight = weight;
@@ -41,10 +39,10 @@ public class Candies extends CandyBase {
         this.sugarContent = sugarContent;
     }
 
-    public static class NameComparator implements Comparator<Candies>{
+    public static class NameComparator implements Comparator<Candies> {
         @Override
         public int compare(Candies o1, Candies o2) {
-           return o1.getName().compareTo(o2.getName());
+            return o1.getName().compareTo(o2.getName());
         }
     }
 
@@ -57,3 +55,5 @@ public class Candies extends CandyBase {
                 '}';
     }
 }
+
+

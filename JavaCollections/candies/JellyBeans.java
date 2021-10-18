@@ -1,4 +1,4 @@
-package candies;
+package javacollections.candies;
 
 public class JellyBeans extends CandyBase {
     public JellyBeans(String name, int weight, int sugarContent) {
@@ -20,7 +20,7 @@ public class JellyBeans extends CandyBase {
 
     @Override
     public int getWeight() {
-        return 0;
+        return weight;
     }
 
     @Override
@@ -42,3 +42,5 @@ public class JellyBeans extends CandyBase {
         return super.toString();
     }
 }
+
+

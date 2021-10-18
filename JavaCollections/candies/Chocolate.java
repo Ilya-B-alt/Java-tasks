@@ -1,7 +1,6 @@
-package candies;
+package javacollections.candies;
 
 public class Chocolate extends CandyBase {
-
     public Chocolate(String name, int weight, int sugarContent) {
         this.name = name;
         this.weight = weight;
@@ -43,3 +42,4 @@ public class Chocolate extends CandyBase {
         return super.toString();
     }
 }
+
